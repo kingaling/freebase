@@ -27,6 +27,7 @@ def __free_base(src, sc, dc):
 
 # convert a number of any base to a number of any base.
 # max base = 94 due to current defined charsets
+# However, you could easily use base 256 if you wanted. :)
 
 # Defined charsets
 lower = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm',
